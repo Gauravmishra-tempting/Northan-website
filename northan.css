@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.email h4{
+    font-size: 14px;
+    margin-top: -55px;
+    margin-left: 77%;
+    color: rgb(80, 72, 72);
+}
+
+.email h5{
+    font-size: 14px;
+    margin-top: -5px;
+    margin-left: 77%;
+    color: rgba(80, 72, 72);
+}
+
+ .topnav .tourpackages{
+    background: #fff;
+    color: rgb(59, 56, 56);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 10%;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    top: 105px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.mySlides {display:none;}
+
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+    margin-top: -2%;
+    color: rgb(59, 56, 56);
+  }
+  
+  
+
+.welcomevisitnorth{
+    margin-top: 49%;
+  }
+
+
+.welcomevisitnorth h2{
+    color: rgb(59, 56, 56);
+    margin-left: 12%;
+}
+
+.welcomevisitnorth h1{
+    color: rgba(217, 62, 6, 0.869);
+    margin-left: 12%;
+    margin-top: -2%;
+    font-weight: bold;
+}
+
+
+.paranortheastpart{
+    width: 80%;
+    margin-left: 12%;
+    color: rgb(59, 56, 56);
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 155%;
+    text-align: justify;
+}
+
+/*-----image------*/
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 50%;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 6;
+  bottom: 6;
+  left: 6px;
+  right: 0;
+  height: 100%;
+  width: 97.4%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(217, 62, 6, 0.869);
+ 
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+  height: 96.1%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+  float: left;
+  width: 33.33%;
+  padding: 6px;
+}
+
+
+
+/*-----image------*/
+
+
+/*-------footer------*/
+
+.footer{
+    background: rgba(217, 62, 6, 0.869);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 330px;
+    margin-top: 3%;
+    padding: 5px;
+}
+
+
+.footer h1{
+    color: #fff;
+    margin-left: 12%;
+}
+
+.footer h2{
+  color: #fff;
+  margin-left: 71.4%;
+  margin-top: -4%;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.col-container{
+  display: flex;
+}
+
+.footer .col{
+    margin-left: 12%;
+
+}
+
+.footer .col-1{
+  width: 18%;
+  color: #fff;
+  margin-left: 7%;
+  line-height: 140%;
+}
+
